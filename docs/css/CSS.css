@@ -33,3 +33,20 @@ input{
      margin-top: 10px;
     
 }
+#thesubmit{
+ color:white;
+ width: 130px;
+ height: 50px;
+ background-color: blue;
+ font-size: 20px;
+ letter-spacing: 3px;
+ border-style: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+#checkout{
+     cursor:pointer;
+}
+.foot{
+     background-color: beige;
+}
