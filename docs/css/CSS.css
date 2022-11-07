@@ -13,19 +13,22 @@ div{
      font-size: medium;
 
 }
-#email, #pswd{
+#email, #pswd ,#homepage{
     
      border-style: solid; width: 75pc;
      height: 60px;
      padding-left: 70px;
      border-radius: 6px;
      opacity: 0.7;
+     display: block;
     
    
 }
+
 label{
      font-style: normal;
      font-size: 20px;
+
   
      
 }
@@ -43,6 +46,7 @@ input{
  border-style: none;
  border-radius: 5px;
  cursor: pointer;
+
 }
 #checkout{
      cursor:pointer;

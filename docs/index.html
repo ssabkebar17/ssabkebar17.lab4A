@@ -24,14 +24,21 @@
 
 <label for="pswd">Password</label><br>
 <input type="password" id="pswd" name="password"
- placeholder="password"  pattern= "(?=\d+)(?=[a-z]*)(?=[A-Z]*).{10,}"  title="Must
+ placeholder="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{10,})"  title="Must
  contain at least one number and one uppercase and lowercase letter, and at least 8 or
  more characters">
+</div>
+<div>
+ <label for="homepage">Add URL address</label><br>
+ <input type="url" id="homepage" name="homepage" required 
+ value="Enter url" >
 </div>
 <div>
    
     <input type="checkbox" id="checkout" name="the Chekout" >
     <label for="checkout">check me out</label><br>
+    
+    
     <input type="submit" id="thesubmit" value="Submit">
 </div>
 
