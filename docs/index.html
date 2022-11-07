@@ -24,7 +24,9 @@
 
 <label for="pswd">Password</label><br>
 <input type="password" id="pswd" name="password"
- placeholder="password" required >
+ placeholder="password"  pattern= "(?=\d+)(?=[a-z]*)(?=[A-Z]*).{10,}"  title="Must
+ contain at least one number and one uppercase and lowercase letter, and at least 8 or
+ more characters">
 </div>
 <div>
    
